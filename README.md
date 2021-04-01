@@ -8,4 +8,4 @@
   - <a href="https://iammatheus.github.io/css-slide-with-buttons/">Visualizar<a/>
   
 ### Demonstração:
-  - ![slidegif](https://github.com/iammatheus/css-slide-with-buttons/blob/master/Slide%20CSS%20gif.gif)
+![slidegif](https://github.com/iammatheus/css-slide-with-buttons/blob/master/Slide%20CSS%20gif.gif)
