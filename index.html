@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Matheus Ferreira">
+    <meta name="description" content="Slide css, com botões para navegar">
+    <meta name="keywords" content="slideshow, slide, css, html, navigation">
+    <title>Slide CSS with button</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="slide-container">
+      <div class="slides">
+        <input type="radio" name="option" id="horse" checked>
+        <input type="radio" name="option" id="tiger">
+        <input type="radio" name="option" id="parakeet">
+        <input type="radio" name="option" id="bird">
+        <input type="radio" name="option" id="owl">
+
+        <div class="slide-content slider">
+          <img src="image/horse.png">
+        </div>
+
+        <div class="slide-content">
+          <img src="image/tiger.png">
+        </div>
+        
+        <div class="slide-content">
+          <img src="image/parakeet.png">
+        </div>
+
+        <div class="slide-content">
+          <img src="image/bird.png">
+        </div>
+
+        <div class="slide-content">
+          <img src="image/owl.png">
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="horse"></label>
+        <label for="tiger"></label>
+        <label for="parakeet"></label>
+        <label for="bird"></label>
+        <label for="owl"></label>
+      </div>
+    </section>
+  </body>
+</html>
